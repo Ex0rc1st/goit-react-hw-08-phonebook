@@ -7,12 +7,14 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  color: #2196f3;
 `;
 
 export const Title = styled.h2`
   font-weight: 700;
   font-size: 38px;
   text-align: center;
+  color: #2196f3;
 `;
 
 export const StyledLink = styled(NavLink)`

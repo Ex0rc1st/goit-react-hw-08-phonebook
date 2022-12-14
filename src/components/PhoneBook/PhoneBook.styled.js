@@ -22,8 +22,7 @@ export const ContactListTitle = styled.h2`
 
 export const Notice = styled.p`
   text-align: center;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
   color: red;
-  text-shadow: ${p => p.theme.shadows.noticeShadow};
 `;
