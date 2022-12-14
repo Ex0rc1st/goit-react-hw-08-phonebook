@@ -7,7 +7,7 @@ import {
   pendingReducer,
   fulfilledReducer,
   rejectedReducer,
-} from 'redux/reducers';
+} from './reducers';
 
 const extraActions = [fetchContacts, addContact, deleteContact];
 const getAction = type => isAnyOf(...extraActions.map(action => action[type]));
