@@ -10,14 +10,14 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-weight: 500;
+  font-weight: 700;
   font-size: 38px;
   text-align: center;
 `;
 
 export const StyledLink = styled(NavLink)`
   font-size: 38px;
-  color: #bc3838;
+  color: blue;
   text-decoration: none;
 
   :hover {

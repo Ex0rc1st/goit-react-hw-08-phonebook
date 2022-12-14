@@ -15,16 +15,15 @@ export const Home = () => {
       {isLoggedIn ? (
         <Title>
           Phone book welcome page
-          {/* <span role="img" aria-label="Greeting icon">
+          <span role="img" aria-label="Greeting icon">
             💁‍♀️
-          </span> */}
+          </span>
         </Title>
       ) : (
         <Box display="flex" flexDirection="column">
           <Title>
-            To use the application "Phone book" you must{' '}
-            <StyledLink to="/register">register</StyledLink> or{' '}
-            <StyledLink to="/login">log in</StyledLink>
+            Please <StyledLink to="/register">register</StyledLink> or{' '}
+            <StyledLink to="/login">log in</StyledLink> to use the app
           </Title>
         </Box>
       )}

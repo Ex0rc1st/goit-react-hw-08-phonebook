@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
+  /* display: flex; */
   padding: 10px;
+  /* align-items: center; */
 `;
 
 export const Input = styled.input`
+  display: block;
   width: 260px;
   height: 20px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   margin-bottom: ${p => p.theme.space[4]}px;
   border: 2px solid rgba(33, 33, 33, 0.2);
   background-color: ${p => p.theme.colors.white};

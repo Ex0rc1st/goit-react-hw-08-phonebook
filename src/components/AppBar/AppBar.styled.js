@@ -20,7 +20,7 @@ export const Layout = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1280px;
+  max-width: 1280px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
