@@ -50,7 +50,7 @@ export default function PhoneBook() {
           {isLoading && !error ? (
             <FadeLoader color={'#337ab7'} />
           ) : (
-            <Notice>PhoneBook book is empty</Notice>
+            <Notice>PhoneBook is empty</Notice>
           )}
         </Box>
       )}
